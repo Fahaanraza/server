@@ -32,7 +32,7 @@ const invoice = new mongoose.Schema({
         unique: true,
     },
     invoiceDate: {
-        type: String,
+        type: Date,
         required: true
 
     },
@@ -45,7 +45,7 @@ const invoice = new mongoose.Schema({
         required: true
     },
     collectionDate: {
-        type: String,
+        type: Date,
         required: true
     }
 

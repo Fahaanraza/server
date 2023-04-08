@@ -1,0 +1,20 @@
+Mongoose library is used to define the schema and validate the data
+
+This code is using the Mongoose library to define a schema for an invoice document in a MongoDB database. 
+The schema specifies the structure and properties of the invoice document.
+The invoice schema has the following properties:
+
+brand: A string field representing the brand associated with the invoice. This field is required, meaning that it must be present in any invoice document.
+salesRepId: A string field representing the ID of the sales representative associated with the invoice. This field is required.
+salesmanName: A string field representing the name of the sales representative associated with the invoice. This field is required.
+invoiceAmount: A number field representing the total amount of the invoice. This field is required.
+retailerId: A string field representing the ID of the retailer associated with the invoice. This field is required.
+retailerPhoneNo: A string field representing the phone number of the retailer associated with the invoice. This field is required.
+retailerName: A string field representing the name of the retailer associated with the invoice. This field is required .
+invoiceDate: A date field representing the date the invoice was created. This field is required.
+billNo: A string field representing the bill number associated with the invoice. This field is required.
+pendingAmount: A number field representing the amount of money pending to be paid for this invoice. This field is required.
+collectionDate: A date field representing the date the payment was collected. This field is required.
+
+
+Index used is default _id by the MongoDB
